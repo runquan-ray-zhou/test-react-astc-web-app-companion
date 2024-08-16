@@ -1,0 +1,11 @@
+.HeroImage {
+    background-color: rgb(0, 50, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:393px;
+    height:220px;
+    img {
+        height:220px;
+    }
+}

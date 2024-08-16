@@ -16,8 +16,7 @@ function App() {
         <HeroImage />
         <main>
           <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/Home" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/Schedule" element={<Index />} />
             <Route path="/Route" element={<Index />} />
             <Route path="/Speakers" element={<Index />} />
