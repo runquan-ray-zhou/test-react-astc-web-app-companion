@@ -1,0 +1,43 @@
+.Events {
+    .Events__time {
+        margin-top: 10px;
+        h3 {
+            margin: 0;
+        }
+        padding: 10px 0px 10px 30px;
+        background-color: rgb(213, 223, 238);
+    }
+    .Events__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 30px 0px 30px; 
+        border-bottom: 1px solid black;
+        padding-bottom: 40px;
+        .Event-name {
+            font-weight: bold;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .Event-presenter,
+        .Event-location {
+            display: flex;
+        }
+        p {
+            font-size: 1.1em;
+            margin: 0px;
+        }
+        .fa-regular,
+        .fa-solid{
+            font-size: 2em;
+        }
+        .fa-regular {
+            margin-bottom: 55px;
+            margin-right: 10px;
+        }
+        .fa-solid {
+            margin-top: 55px;
+            margin-right: 10px;
+        }
+    }
+}
