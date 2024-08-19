@@ -8,16 +8,16 @@ export default function BottomNav() {
             <Link to="/">
                 <button><i className="fa-solid fa-house"></i><p>Home</p></button>
             </Link>
-            <Link to="/Schedule">
+            <Link to="/schedule">
                 <button><i className="fa-regular fa-clock"></i><p>Schedule</p></button>
             </Link>
-            <Link to="/Route">
+            <Link to="/route">
                 <button><i className="fa-solid fa-route"></i><p>Route</p></button>
             </Link>
-            <Link to="/Exhibits">
+            <Link to="/exhibits">
                 <button><i className="fa-solid fa-store"></i><p>Exhibits</p></button>
             </Link>
-            <Link to="/Map">
+            <Link to="/map">
                 <button><i className="fa-regular fa-map"></i><p>Map</p></button>
             </Link>
         </nav>
